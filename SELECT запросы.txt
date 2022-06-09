@@ -1,0 +1,19 @@
+SELECT title, year_of_issue FROM albums
+WHERE year_of_issue = 2018;
+
+SELECT trek_name, duration FROM treks 
+ORDER BY duration DESC
+LIMIT 1;
+
+SELECT trek_name FROM treks 
+WHERE duration >= 210;
+
+SELECT name FROM collection 
+WHERE year_of_issue BETWEEN 2018 and 2020;
+
+SELECT performers_name FROM performers 
+WHERE performers_name NOT LIKE ('%% %%');
+
+SELECT trek_name FROM treks 
+WHERE lower(trek_name) LIKE ('%%мой%%') 
+OR lower(trek_name) LIKE ('%%my%%');

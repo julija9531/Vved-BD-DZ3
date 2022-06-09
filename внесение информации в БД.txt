@@ -1,0 +1,266 @@
+INSERT INTO albums (
+	title,
+	year_of_issue
+	)
+VALUES ('Ромашка', '1939');
+
+INSERT INTO albums (
+	title,
+	year_of_issue
+	)
+VALUES ('Тюльпан', '2020');
+
+INSERT INTO albums (
+	title,
+	year_of_issue
+	)
+VALUES ('Village', '2018');
+
+INSERT INTO albums (
+	title,
+	year_of_issue
+	)
+VALUES ('City', '1943');
+
+INSERT INTO albums (
+	title,
+	year_of_issue
+	)
+VALUES ('Деревня', '1940');
+
+INSERT INTO albums (
+	title,
+	year_of_issue
+	)
+VALUES ('Село', '2001');
+
+INSERT INTO albums (
+	title,
+	year_of_issue
+	)
+VALUES ('Воздух', '2018');
+
+INSERT INTO albums (
+	title,
+	year_of_issue
+	)
+VALUES ('Листья', '2002');
+
+INSERT INTO collection (
+	name,
+	year_of_issue
+	)
+VALUES ('Неон', '2012');
+
+INSERT INTO collection (
+	name,
+	year_of_issue
+	)
+VALUES ('Танцы', '2008');
+
+INSERT INTO collection (
+	name,
+	year_of_issue
+	)
+VALUES ('Для сна', '2019');
+
+INSERT INTO collection (
+	name,
+	year_of_issue
+	)
+VALUES ('Для фитнеса', '2007');
+
+INSERT INTO collection (
+	name,
+	year_of_issue
+	)
+VALUES ('Релакс', '2016');
+
+INSERT INTO collection (
+	name,
+	year_of_issue
+	)
+VALUES ('Бодрое', '2011');
+
+INSERT INTO collection (
+	name,
+	year_of_issue
+	)
+VALUES ('Хард', '2015');
+
+INSERT INTO collection (
+	name,
+	year_of_issue
+	)
+VALUES ('Вокал', '2021');
+
+INSERT INTO genres (
+	genre_name
+	)
+VALUES ('Фолк-музыка');
+
+INSERT INTO genres (
+	genre_name
+	)
+VALUES ('Кантри');
+
+INSERT INTO genres (
+	genre_name
+	)
+VALUES ('Латиноамериканская музыка');
+
+INSERT INTO genres (
+	genre_name
+	)
+VALUES ('Блюз');
+
+INSERT INTO genres (
+	genre_name
+	)
+VALUES ('Джаз');
+
+INSERT INTO performers (
+	performers_name
+	)
+VALUES ('Mark Thomas');
+
+INSERT INTO performers (
+	performers_name
+	)
+VALUES ('Lusi');
+
+INSERT INTO performers (
+	performers_name
+	)
+VALUES ('Djekson');
+
+INSERT INTO performers (
+	performers_name
+	)
+VALUES ('Бритни Спирс');
+
+INSERT INTO performers (
+	performers_name
+	)
+VALUES ('Lora');
+
+INSERT INTO performers (
+	performers_name
+	)
+VALUES ('Цой');
+
+INSERT INTO performers (
+	performers_name
+	)
+VALUES ('David Mihailov');
+
+INSERT INTO performers (
+	performers_name
+	)
+VALUES ('Mila Koko');
+
+INSERT INTO treks (
+	trek_name,
+	albums_id,
+	duration
+	)
+VALUES ('Мой любимый', '1', '213');
+
+INSERT INTO treks (
+	trek_name,
+	albums_id,
+	duration
+	)
+VALUES ('My Rock-n-Roll', '2', '203');
+
+INSERT INTO treks (
+	trek_name,
+	albums_id,
+	duration
+	)
+VALUES ('Midnight City', '3', '228');
+
+INSERT INTO treks (
+	trek_name,
+	albums_id,
+	duration
+	)
+VALUES ('Nightcall', '4', '241');
+
+INSERT INTO treks (
+	trek_name,
+	albums_id,
+	duration
+	)
+VALUES ('My Cola', '5', '274');
+
+INSERT INTO treks (
+	trek_name,
+	albums_id,
+	duration
+	)
+VALUES ('Black Out Days', '6', '161');
+
+INSERT INTO treks (
+	trek_name,
+	albums_id,
+	duration
+	)
+VALUES ('Burn It All Down', '7', '192');
+
+INSERT INTO treks (
+	trek_name,
+	albums_id,
+	duration
+	)
+VALUES ('My Enemy', '8', '264');
+
+INSERT INTO treks (
+	trek_name,
+	albums_id,
+	duration
+	)
+VALUES ('Its-Time-Night', '1', '272');
+
+INSERT INTO treks (
+	trek_name,
+	albums_id,
+	duration
+	)
+VALUES ('abcdefu', '2', '246');
+
+INSERT INTO treks (
+	trek_name,
+	albums_id,
+	duration
+	)
+VALUES ('Infinity', '3', '144');
+
+INSERT INTO treks (
+	trek_name,
+	albums_id,
+	duration
+	)
+VALUES ('Мой New Americana', '4', '240');
+
+INSERT INTO treks (
+	trek_name,
+	albums_id,
+	duration
+	)
+VALUES ('Sonne', '5', '282');
+
+INSERT INTO treks (
+	trek_name,
+	albums_id,
+	duration
+	)
+VALUES ('Unstoppable', '6', '227');
+
+INSERT INTO treks (
+	trek_name,
+	albums_id,
+	duration
+	)
+VALUES ('Free Animal', '7', '201');
+	
